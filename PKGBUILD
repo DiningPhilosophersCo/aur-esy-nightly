@@ -13,3 +13,7 @@ _npmname=@esy-nightly/esy
 package() {
   npm install -g --prefix "$pkgdir/usr" $_npmname
 }
+
+pre_remove() {
+  npm remove -g $_npmname
+}
