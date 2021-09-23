@@ -1,4 +1,4 @@
-# Maintainer: prometheansacrifice <prometheansacrifice@gmail.com>
+# Maintainer: ManasJayanth <prometheansacrifice@gmail.com>
 pkgname='esy-nightly'
 pkgver='0.6.11+nightly'
 arch=('i686' 'x86_64')
